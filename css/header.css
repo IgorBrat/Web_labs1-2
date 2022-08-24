@@ -1,14 +1,10 @@
 .header {
   background: url(../images/header/header.svg) no-repeat 90% center;
   height: 786px;
-  padding-left: 190px;
-  padding-right: 190px;
-  padding-top: 43px;
-  padding-bottom: 222px;
+  padding: 43px 190px 222px;
 }
 
 .header__container {
-  /* position: fixed; */
   display: flex;
   justify-content: space-between;
   align-items: center;

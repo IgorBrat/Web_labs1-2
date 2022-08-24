@@ -49,8 +49,7 @@ select {
   height: 52px;
   border: 0.8px solid #AFB0B9;
   border-radius: 6px;
-  padding-left: 31px;
-  padding-right: 31px;
+  padding: 0 31px;
   font-weight: 400;
   font-size: 15px;
   color: #4A4C53;
