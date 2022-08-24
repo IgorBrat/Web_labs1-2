@@ -1,0 +1,17 @@
+section.about {
+  background: #F8F8F8 url(../images/main/section-1.svg) no-repeat 10% center;
+  max-height: 774px;
+  padding-left: 191px;
+  padding-top: 200px;
+  padding-right: 220px;
+  padding-bottom: 240px;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.about__btn-learn-more {
+  width: 164px;
+  height: 48px;
+  font-weight: 600;
+  font-size: 16px;
+}

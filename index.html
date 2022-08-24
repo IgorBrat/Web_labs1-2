@@ -27,19 +27,18 @@
             <li class="header__nav-item"><a href class="header__nav-link">Partner</a></li>
           </ul>
         </nav>
-        <button class="header__btn-login">Login</button>
-        <button class="header__btn-register">Register</button>
+        <button type="button" class="header__btn-login">Login</button>
+        <button type="button" class="header__btn-register">Register</button>
       </div>
     </div>
     <div class="container hero__container">
       <h1>Explore and<br>Travel</h1>
       <h3>Holiday finder</h3>
       <hr align="left">
-      <!-- TODO: complete arrow style and "grade" options -->
       <ul class="selector">
         <li>
           <select name="location">
-            <option value="0">Location</option>
+            <option value="0" hidden>Location</option>
             <option value="1">Ukraine</option>
             <option value="2">Great Britain</option>
             <option value="3">Croatia</option>
@@ -47,7 +46,7 @@
         </li>
         <li>
           <select name="activity">
-            <option value="0">Activity</option>
+            <option value="0" hidden>Activity</option>
             <option value="1">Skiing</option>
             <option value="2">Surfing</option>
             <option value="3">Hiking</option>
@@ -57,22 +56,22 @@
       <ul class="selector">
         <li>
           <select name="grade">
-            <option value="0">Grade</option>
-            <option value="1">Ukraine</option>
-            <option value="2">Great Britain</option>
-            <option value="3">Croatia</option>
+            <option value="0" hidden>Grade</option>
+            <option value="1">3-star</option>
+            <option value="2">4-star</option>
+            <option value="3">5-star</option>
           </select>
         </li>
         <li>
           <select name="date">
-            <option value="0">Date</option>
+            <option value="0" hidden>Date</option>
             <option value="1">September</option>
             <option value="2">October</option>
             <option value="3">November</option>
           </select>
         </li>
       </ul>
-      <button class="hero__btn-explore">Explore</button>
+      <button type="button" class="hero__btn-explore">Explore</button>
     </div>
   </header>
   <main class="container">
@@ -90,22 +89,22 @@
       </div>
       <ul>
         <li class="destination-item">
-          <img src="images/destinations/raja-ampat.svg" alt="">
+          <img src="images/destinations/raja-ampat.svg" alt="raja-ampat">
           <span class="destination-item__upper-caption">Raja Ampat</span>
           <span class="destination-item__lower-caption">Indonesia</span>
         </li>
         <li class="destination-item">
-          <img src="images/destinations/fanjingshan.svg" alt="">
+          <img src="images/destinations/fanjingshan.svg" alt="fanjingshan">
           <span class="destination-item__upper-caption">Fanjingshan</span>
           <span class="destination-item__lower-caption">China</span>
         </li>
         <li class=" destination-item">
-          <img src="images/destinations/vevey.svg" alt="">
+          <img src="images/destinations/vevey.svg" alt="vevey">
           <span class="destination-item__upper-caption">Vevey</span>
           <span class="destination-item__lower-caption">Switzerland</span>
         </li>
         <li class="destination-item">
-          <img src="images/destinations/skadar.svg" alt="">
+          <img src="images/destinations/skadar.svg" alt="skadar">
           <span class="destination-item__upper-caption">Skadar</span>
           <span class="destination-item__lower-caption">Montenegro</span>
         </li>
