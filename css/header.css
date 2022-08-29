@@ -1,7 +1,6 @@
 .header {
-  background: url(../images/header/header.svg) no-repeat 90% center;
-  height: 786px;
-  padding: 43px 190px 222px;
+  max-height: 50px;
+  padding: 43px 11.875rem 0px;
 }
 
 .header__container {
@@ -10,8 +9,19 @@
   align-items: center;
 }
 
+.header__menu {
+  display: none;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+.header__menu img {
+  width: 40px;
+}
+
 .header__essentials {
   display: flex;
+  align-items: center;
 }
 
 .header__nav ul {
@@ -31,7 +41,7 @@
 
 .header__btn-login {
   font-weight: 500;
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #FB8F1D;
   background-color: #fff;
   margin-right: 18px;
@@ -39,30 +49,71 @@
 
 .header__btn-register {
   font-weight: 500;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
-.hero__container {
-  margin-top: 114px;
+@media screen and (min-width: 2100px) {
+  .header {
+    padding: 43px 8rem 0;
+  }
 }
 
-.hero__container hr {
-  width: 32px;
-  border: 2px solid #202336;
-  border-radius: 4px;
+@media screen and (max-width: 1400px) {
+  .header {
+    padding: 43px 7rem 0;
+  }
+
+  .header__menu {
+    display: flex;
+  }
+
+  #nav-links {
+    height: 500px;
+  }
+
+  .header__essentials {
+    background: #008b54;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: absolute;
+    padding-top: 30px;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+    clip-path: circle(0 at top right);
+    transition: clip-path 1s ease-in;
+  }
+
+  .header__essentials.open {
+    clip-path: circle(450px at top right);
+  }
+
+  .header__essentials-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header__btn-login, .header__btn-register {
+    margin: 40px 20px;
+  }
+
+  .header__nav ul {
+    flex-direction: column;
+  }
+
+  .header__nav-item {
+    padding: 20px 0;
+    margin: 0 10px;
+  }
 }
 
-.selector {
-  display: flex;
-  padding-left: 0;
-  margin-top: 48px;
-}
-
-.hero__btn-explore {
-  margin-top: 51px;
-  width: 180px;
-  height: 52px;
-  font-weight: 700;
-  font-size: 17px;
-  font-family: "Mulish";
+@media screen and (max-width: 400px) {
+  .header {
+    padding: 43px 4rem 0px;
+  }
+  .header__essentials.open {
+    clip-path: circle(400px at top right);
+  }
 }

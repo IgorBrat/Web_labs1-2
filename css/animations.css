@@ -1,0 +1,35 @@
+@keyframes floating-up {
+  0% {
+    background-position: 90% center;
+  }
+  25% {
+    background-position: 100% 40%;
+  }
+  50% {
+    background-position: 90% 30%;
+  }
+  75% {
+    background-position: 80% 40%;
+  }
+  100% {
+    background-position: 90% center;
+  }
+}
+
+@keyframes increase {
+  0% {
+    background-position: 90% center;
+  }
+  25% {
+    background-position: 100% 40%;
+  }
+  50% {
+    background-position: 90% 30%;
+  }
+  75% {
+    background-position: 80% 40%;
+  }
+  100% {
+    background-position: 90% center;
+  }
+}
