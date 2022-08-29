@@ -17,11 +17,12 @@ button {
   color: #fff;
   background-color: #FB8F1D;
   border-radius: 8px;
-  border: 1px solid #FB8F1D;
+  border: 5px solid #FB8F1D;
   width: 8.25rem;
   height: 2.75rem;
   font-family: inherit;
   font-weight: inherit;
+  animation: border-changing 6s linear infinite;
 }
 
 h1 {
@@ -71,13 +72,15 @@ p {
   html {
     font-size: 20px;
   }
+  button {
+    border-width: 3px;
+  }
 }
 
 @media screen and (max-width: 500px) {
   html {
     font-size: 16px;
   }
-
   h1 {
     font-size: 3rem;
   }

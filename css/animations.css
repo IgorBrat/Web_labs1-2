@@ -16,20 +16,42 @@
   }
 }
 
-@keyframes increase {
+@keyframes border-changing {
   0% {
-    background-position: 90% center;
+    border-top-color: rgb(77, 214, 96);
   }
-  25% {
-    background-position: 100% 40%;
+  14% {
+    border-right-color: rgb(77, 214, 96);
+    border-top-color: rgb(77, 214, 96);
   }
-  50% {
-    background-position: 90% 30%;
+  28% {
+    border-bottom-color: rgb(77, 214, 96);
+    border-right-color: rgb(77, 214, 96);
+    border-top-color: rgb(77, 214, 96);
   }
-  75% {
-    background-position: 80% 40%;
+  42% {
+    border-left-color: rgb(77, 214, 96);
+    border-bottom-color: rgb(77, 214, 96);
+    border-right-color: rgb(77, 214, 96);
+    border-top-color: rgb(77, 214, 96);
+  }
+  56% {
+    border-top-color: #FB8F1D;
+    border-left-color: rgb(77, 214, 96);
+    border-bottom-color: rgb(77, 214, 96);
+    border-right-color: rgb(77, 214, 96);
+  }
+  70% {
+    border-right-color: #FB8F1D;
+    border-left-color: rgb(77, 214, 96);
+    border-bottom-color: rgb(77, 214, 96);
+  }
+  85% {
+    border-bottom-color: #FB8F1D;
+    border-left-color: rgb(77, 214, 96);
   }
   100% {
-    background-position: 90% center;
+    border-left-color: #FB8F1D;
+    border-top-color: rgb(77, 214, 96);
   }
 }
