@@ -20,9 +20,9 @@ For now, responsiveness is not required.
 
 ## Web lab 2
 
-Description: Improve a landing page following the given design (same as previous) by adding full responsiveness and some animation.
+Improve a landing page following the given design (same as previous) by adding full responsiveness and some animation.
 
-Requirements:
+### Requirements:
 
 - The website should be partly responsive:
 Required: for 320px (iPhone 5s)  2560px (4K screens).
