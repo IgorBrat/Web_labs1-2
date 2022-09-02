@@ -93,9 +93,14 @@ p {
 }
 
 @media screen and (max-width: 400px) {
-
   body {
     text-align: center;
     align: center;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  html {
+    font-size: 14px;
   }
 }

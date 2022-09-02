@@ -30,6 +30,11 @@
   margin-top: 3rem;
 }
 
+option {
+  font-size: 0.7rem;
+  padding: 0;
+}
+
 .hero__btn-explore {
   margin-top: 51px;
   width: 11.25rem;

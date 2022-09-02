@@ -132,3 +132,9 @@ figcaption {
     width: 280px;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .destination-item img{
+    width: 220px;
+  }
+}
