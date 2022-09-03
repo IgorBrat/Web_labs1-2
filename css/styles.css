@@ -1,5 +1,7 @@
+@import "animations.css";
 @import "globals.css";
 @import "header.css";
+@import "hero.css";
 @import "section_about.css";
 @import "section_destination.css";
 @import "footer.css";

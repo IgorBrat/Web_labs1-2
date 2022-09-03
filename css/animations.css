@@ -1,0 +1,57 @@
+@keyframes floating-up {
+  0% {
+    background-position: 90% center;
+  }
+  25% {
+    background-position: 100% 40%;
+  }
+  50% {
+    background-position: 90% 30%;
+  }
+  75% {
+    background-position: 80% 40%;
+  }
+  100% {
+    background-position: 90% center;
+  }
+}
+
+@keyframes border-changing {
+  0% {
+    border-top-color: rgb(77, 214, 96);
+  }
+  14% {
+    border-right-color: rgb(77, 214, 96);
+    border-top-color: rgb(77, 214, 96);
+  }
+  28% {
+    border-bottom-color: rgb(77, 214, 96);
+    border-right-color: rgb(77, 214, 96);
+    border-top-color: rgb(77, 214, 96);
+  }
+  42% {
+    border-left-color: rgb(77, 214, 96);
+    border-bottom-color: rgb(77, 214, 96);
+    border-right-color: rgb(77, 214, 96);
+    border-top-color: rgb(77, 214, 96);
+  }
+  56% {
+    border-top-color: #FB8F1D;
+    border-left-color: rgb(77, 214, 96);
+    border-bottom-color: rgb(77, 214, 96);
+    border-right-color: rgb(77, 214, 96);
+  }
+  70% {
+    border-right-color: #FB8F1D;
+    border-left-color: rgb(77, 214, 96);
+    border-bottom-color: rgb(77, 214, 96);
+  }
+  85% {
+    border-bottom-color: #FB8F1D;
+    border-left-color: rgb(77, 214, 96);
+  }
+  100% {
+    border-left-color: #FB8F1D;
+    border-top-color: rgb(77, 214, 96);
+  }
+}

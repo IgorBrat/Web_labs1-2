@@ -2,7 +2,6 @@ body {
   font-family: "Inter";
   font-weight: 500;
   color: #000;
-  margin: 0;
 }
 
 a {
@@ -18,50 +17,38 @@ button {
   color: #fff;
   background-color: #FB8F1D;
   border-radius: 8px;
-  border: 1px solid #FB8F1D;
-  width: 132px;
-  height: 44px;
+  border: 5px solid #FB8F1D;
+  width: 8.25rem;
+  height: 2.75rem;
   font-family: inherit;
   font-weight: inherit;
+  animation: border-changing 6s linear infinite;
 }
 
 h1 {
   font-family: "Playfair Display";
   font-weight: 700;
-  font-size: 64px;
+  font-size: 4rem;
   color: #202336;
-  line-height: 80px;
-  margin-bottom: 74px;
+  margin-bottom: 50px;
 }
 
 h2 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-family: "Playfair Display";
+  margin: 0;
 }
 
 h3 {
   font-weight: 600;
-  font-size: 22px;
-}
-
-select {
-  width: 220px;
-  height: 52px;
-  border: 0.8px solid #AFB0B9;
-  border-radius: 6px;
-  padding: 0 31px;
-  font-weight: 400;
-  font-size: 15px;
-  color: #4A4C53;
-  margin-right: 30px;
-  font-family: inherit;
+  font-size: 1.375rem;
 }
 
 p {
   font-weight: 300;
-  font-size: 17px;
-  line-height: 30px;
+  font-size: 1.0625rem;
+  line-height: 1.875rem;
   color: #7D7987;
   font-family: "Mulish";
   margin-bottom: 40px;
@@ -69,4 +56,51 @@ p {
 
 .container {
   margin: 0 auto;
+}
+
+@media screen and (min-width: 2100px) {
+  html {
+    font-size: 30px;
+  }
+
+  .logo {
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  html {
+    font-size: 20px;
+  }
+  button {
+    border-width: 3px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    text-align: center;
+    align: center;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  html {
+    font-size: 14px;
+  }
 }
